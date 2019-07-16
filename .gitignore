@@ -1,0 +1,49 @@
+
+#### joe made this: http://goel.io/joe
+#### scala ####
+*.class
+*.log
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+.idea
+
+*.orig
+# ENSIME specific
+.ensime_cache/
+.ensime
+
+spark-warehouse/
+
+*.orig
+
+metastore_db/
+
+.DS_Store
+build-number.txt
+credentials.sbt
+global.sbt
+sbt-publish.sh
+.scannerwork/
+
+
+core/src/test/resources/com/nokia/gs/npo/ae/e2evolte/usecase/signallingtrace/finalJoiner.csv
+core/src/test/resources/com/nokia/gs/npo/ae/e2evolte/usecase/signallingtrace/Cx.csv
+core/src/test/scala/com/nokia/gs/npo/ae/e2evolte/usecase/signallingtrace/SignallingTraceCxSpec.scala
+core/src/test/scala/com/nokia/gs/npo/ae/e2evolte/usecase/signallingtrace/SignallingTraceSvSpec.scala
+test_case_preparation/scripts/cx.R
+core/src/test/resources/com/nokia/gs/npo/ae/e2evolte/usecase/signallingtrace/MgMj.csv
+test_case_preparation/scripts/Sv.R
+
