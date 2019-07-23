@@ -1,13 +1,8 @@
-package it.jesinity.playground.shapeless.chap01
+package it.jesinity.playground.shapeless.chap0102
 
 import shapeless._
 
 object GenericDerivation {
-
-  val recGen       = Generic[Rectangle]
-  val rectTupleGen = Generic[(Double, Double)]
-  val iceCreamGen  = Generic[IceCream]
-  val employeeGen  = Generic[Employee]
 
   def main(args: Array[String]): Unit = {
 
@@ -21,6 +16,8 @@ object GenericDerivation {
     val employee = Generic[Employee].from(Generic[IceCream].to(iceCream))
 
     println(employee)
+
+
 
   }
 

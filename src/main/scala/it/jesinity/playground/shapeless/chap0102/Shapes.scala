@@ -1,4 +1,4 @@
-package it.jesinity.playground.shapeless.chap01
+package it.jesinity.playground.shapeless.chap0102
 
 sealed trait Shape
 final case class Rectangle(width: Double, height: Double) extends Shape
